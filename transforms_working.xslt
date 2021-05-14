@@ -15,6 +15,7 @@
                     <code>
                         <xsl:attribute name="value" select="fhir:target/fhir:code/@value" />
                     </code>
+                    <xsl:copy-of select="fhir:target/fhir:display"/>
                 </coding>
             </xsl:for-each>
         </code>
