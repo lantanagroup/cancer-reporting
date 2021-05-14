@@ -1,41 +1,44 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
-    <id value="sdcid-sct" />
-    <status value="draft" />
-    <group>
-        <source value="https://CAP.org" />
-        <target value="http://snomed.info/sct" />
-        <!-- Right breast body structure -->
-        <element>
-            <code value="16215.100004300" />
-            <display value="Right breast structure (body structure)" />
-            <target>
-                <code value="73056007" />
-                <display value="Right breast structure (body structure)" />
-                <equivalence value="equivalent" />
-            </target>
-        </element>
-        <!-- Left breast body structure -->
-        <element>
-            <code value="16216.100004300" />
-            <display value="Left breast structure (body structure)" />
-            <target>
-                <code value="80248007" />
-                <display value="Left breast structure (body structure)" />
-                <equivalence value="equivalent" />
-            </target>
-        </element>
-        <!-- breast specimen laterality was not specified -->
-        <element>
-            <code value="16218.100004300" />
-            <display value="Clinical finding was not reported (situation)" />
-            <target>
-                <code value="911754021000004103" />
-                <display value="Clinical finding was not reported (situation)" />
-                <equivalence value="equivalent" />
-            </target>
-        </element>
-      
-      
-    
-    </group>
+  <id value="sdcid-sct" />
+  <status value="draft" />
+  <group>
+    <source value="https://CAP.org" />
+    <target value="http://snomed.info/sct" />
+    <!-- DEMO - DELETE! -->
+    <element>
+      <code value="2122.100004300" />
+      <target>
+        <code value="367531007" />
+        <display value="Total adrenalectomy (procedure) " />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Right breast body structure -->
+    <element>
+      <code value="16215.100004300" />
+      <target>
+        <code value="73056007" />
+        <display value="Right breast structure (body structure)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Left breast body structure -->
+    <element>
+      <code value="16216.100004300" />
+      <target>
+        <code value="80248007" />
+        <display value="Left breast structure (body structure)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- breast specimen laterality was not specified -->
+    <element>
+      <code value="16218.100004300" />
+      <target>
+        <code value="911754021000004103" />
+        <display value="Clinical finding was not reported (situation)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+  </group>
 </ConceptMap>
