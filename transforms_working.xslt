@@ -5,7 +5,6 @@
 
     <xsl:template match="//fhir:Observation/fhir:code">
         <code>
-
             <xsl:apply-templates />
             <xsl:variable name="codevalue" select="fhir:coding/fhir:code/@value" />
 
@@ -20,6 +19,22 @@
             </xsl:for-each>
         </code>
     </xsl:template>
+  
+  <xsl:template match="//fhir:Observation/fhir:valueCodeableConcept">
+    <valueCodeableConcept>
+      <xsl:apply-templates/>
+      <xsl:variable name="valuecc" select="fhir:coding/fhir:code/@value"/>
+      <xsl:for-each select="$cancer-concept-map//fhir:element[fhir:code/@value = $valuecc]">
+        <coding>
+          <system value="http://snomed.info/sct" />
+          <code>
+            <xsl:attribute name="value" select="fhir:target/fhir:code/@value" />
+          </code>
+          <xsl:copy-of select="fhir:target/fhir:display"/>
+        </coding>
+      </xsl:for-each>
+    </valueCodeableConcept>
+  </xsl:template>
 
     <xsl:template match="@* | node()">
         <xsl:copy>

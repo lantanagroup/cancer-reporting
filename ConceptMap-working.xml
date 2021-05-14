@@ -4,17 +4,6 @@
     <group>
         <source value="https://CAP.org" />
         <target value="http://snomed.info/sct" />
-        <!-- Testing code - REMOVE -->
-        <element>
-            <code value="2118.100004300" />
-            <display value="Some part of the body" />
-            <target>
-                <code value="99999999" />
-                <display value="The same part of the body in SNOMED" />
-                <equivalence value="equivalent" />
-            </target>
-        </element>
-
         <!-- Right breast body structure -->
         <element>
             <code value="16215.100004300" />
@@ -45,5 +34,8 @@
                 <equivalence value="equivalent" />
             </target>
         </element>
+      
+      
+    
     </group>
 </ConceptMap>
