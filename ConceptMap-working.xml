@@ -4,39 +4,144 @@
   <group>
     <source value="https://CAP.org" />
     <target value="http://snomed.info/sct" />
-    <!-- DEMO - DELETE! -->
+    <!-- Specimen Collection Procedure -->
     <element>
-      <code value="2122.100004300" />
+      <code value="58807.100004300" />
       <target>
-        <code value="367531007" />
-        <display value="Total adrenalectomy (procedure) " />
+        <code value="2620001000004108" />
+        <display value="Specimen collection procedure (observable entity)" />
         <equivalence value="equivalent" />
       </target>
     </element>
-    <!-- Right breast body structure -->
     <element>
-      <code value="16215.100004300" />
+      <code value="40307.100004300" />
       <target>
-        <code value="73056007" />
-        <display value="Right breast structure (body structure)" />
+        <code value="46116005" />
+        <display value="Excision of malignant tumor of breast (procedure)" />
         <equivalence value="equivalent" />
       </target>
     </element>
-    <!-- Left breast body structure -->
+    <!-- Tumor Site -->
     <element>
-      <code value="16216.100004300" />
+      <code value="51180.100004300" />
       <target>
-        <code value="80248007" />
-        <display value="Left breast structure (body structure)" />
+        <code value="1136681000004107" />
+        <display value="Anatomic location of excised primary malignant neoplasm (observable entity)" />
         <equivalence value="equivalent" />
       </target>
     </element>
-    <!-- breast specimen laterality was not specified -->
     <element>
-      <code value="16218.100004300" />
+      <code value="16251.100004300" />
       <target>
-        <code value="911754021000004103" />
-        <display value="Clinical finding was not reported (situation)" />
+        <code value="110501003" />
+        <display value="Upper outer quadrant of left breast (body structure)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Histologic Type -->
+    <element>
+      <code value="41794.100004300" />
+      <target>
+        <code value="1660001000004100" />
+        <display value="Histologic type of primary malignant neoplasm of breast (observable entity)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <element>
+      <code value="16280.100004300" />
+      <target>
+        <code value="82711006" />
+        <display value="Infiltrating duct carcinoma (morphologic abnormality)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Glandular (Acinar) / Tubular Differentiation -->
+    <element>
+      <code value="38124.100004300" />
+      <target>
+        <code value="3720001000004106" />
+        <display
+          value="Nottingham glandular differentiation score of primary malignant neoplasm of breast (observable entity)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <element>
+      <code value="16347.100004300" />
+      <target>
+        <code value="38112003" />
+        <display value="One (qualifier value)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Nuclear Pleomorphism -->
+    <element>
+      <code value="38125.100004300" />
+      <target>
+        <code value="4520001000004105" />
+        <display
+          value="Nottingham nuclear pleomorphism score of primary malignant neoplasm of breast (observable entity)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <element>
+      <code value="16354.100004300" />
+      <target>
+        <code value="38112003" />
+        <display value="One (qualifier value)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Mitotic Rate -->
+    <element>
+      <code value="38390.100004300" />
+      <target>
+        <code value="2820001000004104" />
+        <display
+          value="Nottingham mitotic rate score of primary malignant neoplasm of breast (observable entity)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <element>
+      <code value="16383.100004300" />
+      <target>
+        <code value="38112003" />
+        <display value="One (qualifier value)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Overall Grade -->
+    <element>
+      <code value="38391.100004300" />
+      <target>
+        <code value="372276001" />
+        <display
+          value="Nottingham combined grade of primary malignant neoplasm of breast (observable entity)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <element>
+      <code value="16390.100004300" />
+      <target>
+        <code value="38112003" />
+        <display value="One (qualifier value)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <!-- Tumor Focality -->
+    <element>
+      <code value="38392.100004300" />
+      <target>
+        <code value="1157128007" />
+        <display
+          value="Qualitative distribution of primary malignant neoplasm of breast in excised breast specimen (observable entity)" />
+        <equivalence value="equivalent" />
+      </target>
+    </element>
+    <element>
+      <code value="16448.100004300" />
+      <target>
+        <code value="261034003" />
+        <display value="Unifocal (qualifier value)" />
         <equivalence value="equivalent" />
       </target>
     </element>
