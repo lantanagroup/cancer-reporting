@@ -99,46 +99,6 @@
       </Patient>
     </resource>
   </entry>
-  <!-- Encounter where specimen originated -->
-  <entry>
-    <fullUrl value="urn:uuid:2c08e319-f0af-48b3-98df-267cbd376926" />
-    <resource>
-      <Encounter>
-        <meta>
-          <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter" />
-        </meta>
-        <identifier>
-          <system value="http://example.com/fhir/encounters" />
-          <value value="123" />
-        </identifier>
-        <status value="finished" />
-        <class>
-          <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
-          <code value="IMP" />
-          <display value="inpatient encounter" />
-        </class>
-        <type>
-          <coding>
-            <system value="http://snomed.info/sct" />
-            <code value="308335008" />
-          </coding>
-        </type>
-        <subject>
-          <reference value="Patient/JoelAlexPatient" />
-        </subject>
-        <participant>
-          <individual>
-            <reference value="Practitioner/oncologist-example" />
-          </individual>
-        </participant>
-        <participant>
-          <individual>
-            <reference value="Practitioner/pathologist-example" />
-          </individual>
-        </participant>
-      </Encounter>
-    </resource>
-  </entry>
   <!-- DiagnosticReport -->
   <entry>
     <fullUrl value="urn:uuid:edfb977c-5e0e-41a9-93a6-c2d3f80b6903" />
